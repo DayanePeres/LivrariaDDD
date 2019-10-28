@@ -4547,7 +4547,8 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "Data": "1.0.0",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "System.Linq": "4.3.0"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}
@@ -12299,11 +12300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Application\\Application.csproj",
+      "projectUniqueName": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Application\\Application.csproj",
+      "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Application\\Application.csproj",
       "packagesPath": "C:\\Users\\dayfe\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Application\\obj\\",
+      "outputPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12324,14 +12325,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.CrossCutting\\CrossCutting.csproj"
+            "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.CrossCutting\\CrossCutting.csproj"
             },
-            "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
-              "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj"
+            "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
+              "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj"
             },
-            "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Services\\Services.csproj": {
-              "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Services\\Services.csproj"
+            "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Services\\Services.csproj": {
+              "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Services\\Services.csproj"
             }
           }
         }

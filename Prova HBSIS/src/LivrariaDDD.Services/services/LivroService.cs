@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Domain.Entities;
 using LivrariaDDD.Domain.Interfaces;
 using LivrariaDDD.Domain.Interfaces.Services.Livros;
+using System.Linq;
 
 namespace LivrariaDDD.Services.services
 {
@@ -27,7 +28,8 @@ namespace LivrariaDDD.Services.services
 
         public async Task<IEnumerable<LivroEntity>> GetAll()
         {
-            return await _repository.SelectAsync();
+            var result = await _repository.SelectAsync();
+            return result.OrderBy(x => x.Titulo);
         }
 
         public async Task<LivroEntity> Post(LivroEntity livroEntity)

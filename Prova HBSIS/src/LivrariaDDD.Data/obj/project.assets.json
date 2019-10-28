@@ -3280,11 +3280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Data\\Data.csproj",
+      "projectUniqueName": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Data\\Data.csproj",
+      "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\dayfe\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Data\\obj\\",
+      "outputPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3305,8 +3305,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
-              "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj"
+            "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
+              "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj"
             }
           }
         }

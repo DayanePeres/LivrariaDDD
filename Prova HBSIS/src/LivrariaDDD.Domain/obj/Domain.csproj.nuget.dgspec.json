@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {}
+    "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
+    "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj",
+        "projectPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dayfe\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\dayfe\\Documents\\Prova HBSIS\\src\\LivrariaDDD.Domain\\obj\\",
+        "outputPath": "D:\\Users\\dayfe\\Documents\\LivrariaDDD\\LivrariaDDD\\Prova HBSIS\\src\\LivrariaDDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

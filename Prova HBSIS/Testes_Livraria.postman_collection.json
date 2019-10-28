@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "bd938e40-19a4-45bf-9a8c-88911950bd14",
+		"name": "Testes_Livraria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/livros",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"titulo\" : \"AAAAAAAAA\",\n\t\"anoedicao\": '2007-01-01',\n\t\"genero\" : \"Fantasia\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/livros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"livros"
+					]
+				},
+				"description": "Testes (crud) livraria."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Livros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Livros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Livros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Livros/66beb29b-506a-4a1a-9a4a-c72cfff99875",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Livros/66beb29b-506a-4a1a-9a4a-c72cfff99875",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Livros",
+						"66beb29b-506a-4a1a-9a4a-c72cfff99875"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/livros",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\"id\": \"66beb29b-506a-4a1a-9a4a-c72cfff99875\",\n\t\"titulo\" : \"AAAAAAAAA aaaaaaa\",\n\t\"anoedicao\": '1993-01-01',\n\t\"genero\" : \"Fantasia\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/livros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"livros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Livros/66beb29b-506a-4a1a-9a4a-c72cfff99875",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Livros/66beb29b-506a-4a1a-9a4a-c72cfff99875",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Livros",
+						"66beb29b-506a-4a1a-9a4a-c72cfff99875"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
